@@ -42,39 +42,39 @@ Create a **`ReadMe.md`** markdown file that defines the following.
 
 # Grading Rubric
 
-- [ ] [**core**] Used C++ and `doodle` framework to make a program
-- [ ] [**core**] Program has a working button to spawn random Jelly objects onto the screen
-- [ ] [**core**] Jelly objects that move off screen get deleted
-- [ ] [**core**] Jelly objects that are clicked on with the mouse get deleted
-- [ ] [**core**] Exiting the program by closing the window causes the scene to be saved to a text file
-- [ ] [**core**] If the scene text file exists then on start up the scene will be loaded
-- [ ] [**core**] Made good use of File IO with the `ifstream` and `ofstream` types
-- [ ] [**core**] Created a `std::map` or `std::unordered_map` with a jelly enum key and a string value to convert the enum to a string and use it for writing to the save file
-- [ ] [**core**] Created a `std::map` or `std::unordered_map` with a string key and a jelly enum value to convert the string to an enum and use it for reading from the save file
-- [ ] [**core**] Created and used your own `namespace`
-- [ ] [**core**] Make good use of functions
-- [ ] [**core**] Make good use of `class`/`struct`
-- [ ] [**core**] Code is reasonably organized across multiple files, so that there are no big monolithic source code files.
-- [ ] Uses the most appropriate loop statements for the kind loop that is done
-- [ ] Make good use of References
-- [ ] Make good use of `std::string`
-- [ ] Make good use of `std::vector`
-- [ ] Make good use of `int`
-- [ ] Make good use of `double`
-- [ ] Make good use of `bool`
-- [ ] Used exceptions for error checking at least one time
+- [x] [**core**] Used C++ and `doodle` framework to make a program
+- [x] [**core**] Program has a working button to spawn random Jelly objects onto the screen
+- [x] [**core**] Jelly objects that move off screen get deleted
+- [x] [**core**] Jelly objects that are clicked on with the mouse get deleted
+- [x] [**core**] Exiting the program by closing the window causes the scene to be saved to a text file
+- [x] [**core**] If the scene text file exists then on start up the scene will be loaded
+- [x] [**core**] Made good use of File IO with the `ifstream` and `ofstream` types
+- [x] [**core**] Created a `std::map` or `std::unordered_map` with a jelly enum key and a string value to convert the enum to a string and use it for writing to the save file
+- [x] [**core**] Created a `std::map` or `std::unordered_map` with a string key and a jelly enum value to convert the string to an enum and use it for reading from the save file
+- [x] [**core**] Created and used your own `namespace`
+- [x] [**core**] Make good use of functions
+- [x] [**core**] Make good use of `class`/`struct`
+- [x] [**core**] Code is reasonably organized across multiple files, so that there are no big monolithic source code files.
+- [x] Uses the most appropriate loop statements for the kind loop that is done
+- [x] Make good use of References
+- [x] Make good use of `std::string`
+- [x] Make good use of `std::vector`
+- [x] Make good use of `int`
+- [x] Make good use of `double`
+- [x] Make good use of `bool`
+- [x] Used exceptions for error checking at least one time
 - [ ] All variables are initialized when **defined**.
 - [ ] If using shared global variables then they are defined in a header file with the `inline` keyword.
-- [ ] Constants are defined as `constexpr` whenever possible
+- [x] Constants are defined as `constexpr` whenever possible
 - [ ] If using fixed size arrays then they are defined with `std::array`
 - [ ] If functions are defined in header files then they are marked as `inline` or `constexpr`
-- [ ] Window title contains student name
-- [ ] All source files compile without warnings and without errors.
-- [ ] Warning level 4 is set and treat warnings as errors is set.
-- [ ] Correct files submitted. No unnecessary files submitted.
-- [ ] **All** Source Code has a proper header comment: Name, Exam Name, Course Number, Term & Year.
-- [ ] Followed the appropriate Code Quality Guidelines and Code Style Guidelines.
-- [ ] Created a properly filled out `ReadMe.md` file
+- [x] Window title contains student name
+- [x] All source files compile without warnings and without errors.
+- [x] Warning level 4 is set and treat warnings as errors is set.
+- [x] Correct files submitted. No unnecessary files submitted.
+- [x] **All** Source Code has a proper header comment: Name, Exam Name, Course Number, Term & Year.
+- [x] Followed the appropriate Code Quality Guidelines and Code Style Guidelines.
+- [x] Created a properly filled out `ReadMe.md` file
 
 Scores for the Exam will be given as the following:
 
