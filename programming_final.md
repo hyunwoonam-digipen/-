@@ -63,7 +63,7 @@ Create a **`ReadMe.md`** markdown file that defines the following.
 - [x] Make good use of `double`
 - [x] Make good use of `bool`
 - [x] Used exceptions for error checking at least one time
-- [ ] All variables are initialized when **defined**.
+- [x] All variables are initialized when **defined**.
 - [ ] If using shared global variables then they are defined in a header file with the `inline` keyword.
 - [x] Constants are defined as `constexpr` whenever possible
 - [ ] If using fixed size arrays then they are defined with `std::array`
